@@ -1,0 +1,116 @@
+Determining if the CL_VERSION_3_0 exist failed with the following output:
+Change Dir: C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.3.3/bin/ninja/win/x64/ninja.exe cmTC_0822f && [1/2] Building C object CMakeFiles/cmTC_0822f.dir/CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_0822f.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe  -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/include" -fdiagnostics-color=always -o CMakeFiles/cmTC_0822f.dir/CheckSymbolExists.c.obj -c C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'CL_VERSION_3_0' undeclared (first use in this function); did you mean 'CL_VERSION_1_0'?
+    8 |   return ((int*)(&CL_VERSION_3_0))[argc];
+      |                   ^~~~~~~~~~~~~~
+      |                   CL_VERSION_1_0
+C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_3_0
+  return ((int*)(&CL_VERSION_3_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.3.3/bin/ninja/win/x64/ninja.exe cmTC_68155 && [1/2] Building C object CMakeFiles/cmTC_68155.dir/CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_68155.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe  -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/include" -fdiagnostics-color=always -o CMakeFiles/cmTC_68155.dir/CheckSymbolExists.c.obj -c C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'CL_VERSION_2_2' undeclared (first use in this function); did you mean 'CL_VERSION_1_2'?
+    8 |   return ((int*)(&CL_VERSION_2_2))[argc];
+      |                   ^~~~~~~~~~~~~~
+      |                   CL_VERSION_1_2
+C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.3.3/bin/ninja/win/x64/ninja.exe cmTC_75184 && [1/2] Building C object CMakeFiles/cmTC_75184.dir/CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_75184.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe  -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/include" -fdiagnostics-color=always -o CMakeFiles/cmTC_75184.dir/CheckSymbolExists.c.obj -c C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'CL_VERSION_2_1' undeclared (first use in this function); did you mean 'CL_VERSION_1_1'?
+    8 |   return ((int*)(&CL_VERSION_2_1))[argc];
+      |                   ^~~~~~~~~~~~~~
+      |                   CL_VERSION_1_1
+C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.3.3/bin/ninja/win/x64/ninja.exe cmTC_87ebb && [1/2] Building C object CMakeFiles/cmTC_87ebb.dir/CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_87ebb.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe  -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/include" -fdiagnostics-color=always -o CMakeFiles/cmTC_87ebb.dir/CheckSymbolExists.c.obj -c C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'CL_VERSION_2_0' undeclared (first use in this function); did you mean 'CL_VERSION_1_0'?
+    8 |   return ((int*)(&CL_VERSION_2_0))[argc];
+      |                   ^~~~~~~~~~~~~~
+      |                   CL_VERSION_1_0
+C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/catal/CLionProjects/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/include/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
